@@ -1,0 +1,26 @@
+{
+  "name": "voidfetch",
+  "version": "1.0.0",
+  "description": "reel scrapper",
+  "homepage": "https://github.com/0xscara/VoidFetch#readme",
+  "bugs": {
+    "url": "https://github.com/0xscara/VoidFetch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xscara/VoidFetch.git"
+  },
+  "license": "ISC",
+  "author": "0xscara",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.6",
+    "nodemon": "^3.1.11"
+  }
+}
