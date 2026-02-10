@@ -1,1 +1,1 @@
-export const DB_NAME = "voidfetch";
+export const DB_NAME ="voidfetch_db";
